@@ -59,7 +59,7 @@ function sistemOn() {
         case '/': console.log(`O resultado da operação ${numero1} ${operacao1} ${numero2} é ${divisao(numero1, numero2)}.`);
             return;
 
-        case '%': console.log(`O resultado da porcentagem ${numero1} de ${numero2} é ${porcentagem(numero1, numero2)}.`);
+        case '%': console.log(`O resultado da porcentagem ${numero1} de ${numero2} é ${porcentagem(numero1, numero2)}%.`);
             return;
 
         default: console.log("Vocẽ não digitou uma opção válida! Tente novamente!")
