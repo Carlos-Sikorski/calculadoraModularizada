@@ -1,6 +1,6 @@
 function porcentagem(id1, id2) {
 
-    return ((id2 / id1) * 100)
+    return ((id1 / id2) * 100)
 
 };
 
